@@ -14,7 +14,7 @@
 	} from 'flowbite-svelte';
 	import '../../app.pcss';
 	import Users from '../data/users.json';
-	import Notifications from '$lib/dashboard/NotificationList.svelte';
+	import Notifications from '$lib/dashboardMensual/NotificationList.svelte';
 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 
 	export let fluid = true;

@@ -27,7 +27,7 @@ openGraph={{
       alt: `${title}`
     }
   ],
-  siteName: 'Flowbite Svelte Admin Dashboard',
+  siteName: 'Data Rocket',
 }}
 twitter={{
   handle: '@shinokada',

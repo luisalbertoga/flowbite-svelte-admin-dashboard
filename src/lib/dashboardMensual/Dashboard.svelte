@@ -14,6 +14,7 @@
 	import Insights from './Insights.svelte';
 	import Traffic from './Traffic.svelte';
 	import Transactions from './Transactions.svelte';
+	import Date from './Date.svelte'
 	import chart_options_func from '../../routes/(sidebar)/dashboard/chart_options';
 
 	export let data: PageData;
@@ -38,6 +39,7 @@
 </script>
 
 <div class="mt-px space-y-4">
+	<Date />
 	<div class="grid gap-4 xl:grid-cols-2 2xl:grid-cols-3">
 		<ChartWidget {chartOptions} title="$45,385" subtitle="Sales this week" />
 

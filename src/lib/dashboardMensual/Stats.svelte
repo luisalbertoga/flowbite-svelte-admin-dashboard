@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Avatar, Card, Heading, Popover, TabItem, Tabs } from 'flowbite-svelte';
-	import Change from '$lib/dashboard/Change.svelte';
+	import Change from '$lib/dashboardMensual/Change.svelte';
 	import Customers from '../../routes/data/users.json';
 	import { avatarPath, imagesPath } from '$lib/variables';
 	import LastRange from '$lib/widgets/LastRange.svelte';

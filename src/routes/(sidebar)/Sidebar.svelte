@@ -49,15 +49,13 @@
 	});
 
 	let posts = [
-		{ name: 'Dashboard', icon: PieChartSolid, href: '/dashboard' },
-		{
-			name: 'Layouts',
-			icon: TableColumnSolid,
+		{ 	name: 'Dashboard', 
+		  	icon: PieChartSolid, 
 			children: {
-				Stacked: '/layouts/stacked',
-				Sidebar: '/layouts/sidebar'
+				Mensual: '/dashboard'
 			}
 		},
+		
 		{
 			name: 'CRUD',
 			icon: RectangleListSolid,

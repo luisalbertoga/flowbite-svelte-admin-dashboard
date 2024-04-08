@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Dashboard from '$lib/dashboard/Dashboard.svelte';
+	import Dashboard from '$lib/dashboardMensual/Dashboard.svelte';
 	import MetaTag from '../../utils/MetaTag.svelte';
 	export let data;
 
-	const path: string = '/dashboard';
+  const path: string = '/dashboard';
   const description: string = 'Admin Dashboard example using Flowbite Svelte';
   const title: string = 'Flowbite Svelte Admin Dashboard - Dashboard';
   const subtitle: string = 'Admin Dashboard';
